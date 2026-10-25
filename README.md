@@ -1,53 +1,13 @@
-# title
+Insert annotation[^1] here
 
-## time / members
+[^1]: This is the annotation.
+    indent with 4 space
 
-## topics
+    - list 1
+    - list 2
 
-## decisions
+GitHub Flavored Markdown[^gfm] is the original of GitHub. It is based on CommonMark[^commonmark]
 
-1. aaa
-1. bbb
-1. ccc
+[^gfm]: GFM is published in 2017
+[^commonmark]: CommonMark is the standard of markdown.
 
-## Next actions
-
-- aaa
-- bbb
-- ccc
-
-## note
-
-![Node.js](https://img.shields.io/badge/node.js-22.x-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-red)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
-## Version Check
-```bash
-node -v # v22.0.0 or above
-npm -v # 11.0.0 or above
-```
-
-### npm
-
-```bash
-npm install -g yarukoto
-```
-
-### yarn
-
-```bash
-yarn global add yarukoto
-```
-
-### install check
-
-Execute this command
-```bash
-yarukoto --version
-```
-
-Success
-```text
-YarukotoKanri v1.2.0
-```
