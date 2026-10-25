@@ -1,38 +1,53 @@
-# opening
-これは**太字**のテキスト
+# title
 
-- 項目１
-- 項目２
+## time / members
 
-test
+## topics
+
+## decisions
 
 1. aaa
 1. bbb
+1. ccc
 
-list
+## Next actions
 
-- parent
-  - child
-    - subchild
+- aaa
+- bbb
+- ccc
 
-code
+## note
 
-I am `red code`.
+![Node.js](https://img.shields.io/badge/node.js-22.x-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-red)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-```javascript
-function aaa() {
-  return 10
-}
+## Version Check
+```bash
+node -v # v22.0.0 or above
+npm -v # 11.0.0 or above
 ```
 
-> 引用
+### npm
 
-これが~~取り消し~~になります
-詳細は[公式ドキュメント](https://www.google.co.jp/)を参照
+```bash
+npm install -g yarukoto
+```
 
-table
+### yarn
 
-| command | description |
-| --- | --- |
-| `git status` | git kakunin |
+```bash
+yarn global add yarukoto
+```
 
+### install check
+
+Execute this command
+```bash
+yarukoto --version
+```
+
+Success
+```text
+YarukotoKanri v1.2.0
+```
