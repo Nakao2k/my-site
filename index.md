@@ -24,8 +24,13 @@ third party
 > [!TIP]
 > nvm is useful to switch node.js versions.
 
+> [!CAUTION]
+> Follow the rule.
+
 > [!WARNING]
 > `sudo npm install` is not good to use.
 
+> [!NOTE]
+> Windows is recommended.
 
 
