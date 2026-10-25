@@ -1,18 +1,31 @@
-# hello
+## index
 
-website created
+- [How to install](#how-to-install)
+- [How to use](#how-to-use)
+- [Third party](#third-party)
 
-# Project Name
+## How to install
 
-Name of project
+npm is necessary
 
-# how to install
+## How to use
 
-  ```bash
-  npm install your-package
-  ```
+open the textbox
 
-# how to use
+## Third party
 
-use of how
+third party
+
+## How to set up
+
+> [!IMPORTANT]
+> node.js 24 is required.
+
+> [!TIP]
+> nvm is useful to switch node.js versions.
+
+> [!WARNING]
+> `sudo npm install` is not good to use.
+
+
 
