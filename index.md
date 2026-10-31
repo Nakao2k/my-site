@@ -81,15 +81,6 @@ pie title used languages
 ```
 
 ```mermaid
-stateDiagram-v2
-    [*] --> draft
-    draft --> review : submit
-    review --> approved : approve
-    review --> draft : return
-    approved --> [*]
-```
-
-```mermaid
 flowchart
     A[start] --> |confirm| B[execute]
     B --> |execute| C[end]
