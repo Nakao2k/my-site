@@ -40,9 +40,7 @@ flowchart TB
     C --> |Yes| D[display data]
     C --> |No| E[error]
     D --> F([End])
-    E --- G((test))
-    G -.- H(test)
-    H --> F
+    E --> F
 ```
 
 ```mermaid
@@ -60,4 +58,39 @@ sequenceDiagram
     F-->>U: display dashboard
 ```
 
+```mermaid
+gantt
+    title project schedule
+    dateFormat YYYY/MM/DD
+    section design
+    yoken design    :a1, 2025-01-01, 20d
+    kihon     :a2, after a1, 10d
+    section development
+    front end    :b1, after a2, 20d
+    back end     :b2, after a2, 25d
+    section test
+    whole        :c1, after b2, 10d
+```
 
+```mermaid
+pie title used languages
+    "Java Script" : 40
+    "Python" : 30
+    "TypeScript" : 20
+    "others" : 10
+```
+
+```mermaid
+stateDiagram-v2
+    [*] --> draft
+    draft --> review : submit
+    review --> approved : approve
+    review --> draft : return
+    approved --> [*]
+```
+
+```mermaid
+flowchart
+    A[start] --> |confirm| B[execute]
+    B --> |execute| C[end]
+```
